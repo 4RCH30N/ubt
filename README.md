@@ -46,19 +46,19 @@ Uso
 Executar normalmente
 
 ```python
-python3 teste_request.py http://URL
+python3 ubt.py http://URL
 ```
 
 Exibir apenas uploads aceitos
 
 ```python
-python3 teste_request.py http://URL | grep -v "BLOQUEADO"
+python3 ubt.py http://URL | grep -v "BLOQUEADO"
 ```
 
 Exemplo
 
 ```python
-python3 teste_request.py http://target/upload.php
+python3 ubt.py http://target/upload.php
 ```
 
 Saída
